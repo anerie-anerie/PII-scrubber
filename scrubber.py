@@ -15,7 +15,7 @@ import math
 import re
 import sys
 
-# ---------------------------------------------------------------- regex layer
+# regex layer
 # Lookarounds are used instead of \b so keys ending in "-" or "_" still match.
 REGEX_PATTERNS = {
     "EMAIL": re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+"),
@@ -34,6 +34,11 @@ REGEX_PATTERNS = {
 # generic "looks like a secret" candidates: long, mixed letters+digits, high entropy
 GENERIC_CANDIDATE = re.compile(r"(?<![A-Za-z0-9+/_=-])[A-Za-z0-9+/_=-]{24,}(?![A-Za-z0-9+/_=-])")
 
+#so version number wont trigger
+VERSION_CONTEXT = re.compile(
+    r"(?i)\b(?:version|firmware|ver|release|build|v)\.?[:=]?\s*$"
+)
+
 # priority: lower number wins when spans overlap
 PRIORITY = {"EMAIL": 0, "API_KEY": 0, "IP": 0, "GENERIC_KEY": 1, "NAME": 2, "LOCATION": 2}
 
@@ -41,6 +46,10 @@ PRIORITY = {"EMAIL": 0, "API_KEY": 0, "IP": 0, "GENERIC_KEY": 1, "NAME": 2, "LOC
 def _valid_ip(s):
     return all(0 <= int(part) <= 255 for part in s.split("."))
 
+
+def _looks_like_version(text, start):
+    """True if the 15 characters before `start` end with a version-style word."""
+    return bool(VERSION_CONTEXT.search(text[max(0, start - 15):start]))
 
 def _entropy(s):
     counts = {c: s.count(c) for c in set(s)}
@@ -51,7 +60,7 @@ def regex_spans(text):
     spans = []
     for label, pat in REGEX_PATTERNS.items():
         for m in pat.finditer(text):
-            if label == "IP" and not _valid_ip(m.group()):
+            if label == "IP" and (not _valid_ip(m.group()) or _looks_like_version(text, m.start())):
                 continue
             spans.append((m.start(), m.end(), label))
     for m in GENERIC_CANDIDATE.finditer(text):
@@ -61,7 +70,7 @@ def regex_spans(text):
     return spans
 
 
-# ------------------------------------------------------------------ NER layer
+# NER layer
 _NER = None
 NER_MODEL = "dslim/bert-base-NER"
 NER_LABEL_MAP = {"PER": "NAME", "LOC": "LOCATION"}
@@ -75,16 +84,20 @@ def _get_ner():
     return _NER
 
 
-def ner_spans(text, min_score=0.80):
+#edited to avoid single letter..
+def ner_spans(text, min_score=0.80, min_chars=2):
     spans = []
     for e in _get_ner()(text):
         label = NER_LABEL_MAP.get(e["entity_group"])
-        if label and e["score"] >= min_score:
-            spans.append((e["start"], e["end"], label))
+        if not label or e["score"] < min_score:
+            continue
+        if len(text[e["start"]:e["end"]].strip()) < min_chars:
+            continue          # drops single letters like "C" or "R"
+        spans.append((e["start"], e["end"], label))
     return spans
 
 
-# ------------------------------------------------------------ merge + replace
+# merge + replace
 def _resolve_overlaps(spans):
     """Keep non-overlapping spans. Regex beats NER; longer beats shorter."""
     ordered = sorted(spans, key=lambda s: (PRIORITY.get(s[2], 3), -(s[1] - s[0])))

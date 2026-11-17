@@ -1,0 +1,314 @@
+{
+  "misses": [
+    {
+      "id": 79,
+      "type": "API_KEY",
+      "gold": "sk-N3LxbT2FL1XetdSLUqzWlXbHDdejJeZ2",
+      "predicted_nearby": [],
+      "text": "Why does my server at 82.77.101.180 refuse connections? I set the key to sk-N3LxbT2FL1XetdSLUqzWlXbHDdejJeZ2 in .env"
+    },
+    {
+      "id": 58,
+      "type": "API_KEY",
+      "gold": "AKIAH5HM5PELT5O0NGPR",
+      "predicted_nearby": [],
+      "text": "Here is my config:\nHOST=60.95.219.104\nADMIN=phillip26@example.net\nTOKEN=AKIAH5HM5PELT5O0NGPR\nCan you clean it up?"
+    },
+    {
+      "id": 18,
+      "type": "API_KEY",
+      "gold": "ghp_1LEtPS5XKkRPjFSqMRuzWjOAwW0SNTnmrw8y",
+      "predicted_nearby": [],
+      "text": "Why does my server at 97.90.230.123 refuse connections? I set the key to ghp_1LEtPS5XKkRPjFSqMRuzWjOAwW0SNTnmrw8y in .env"
+    },
+    {
+      "id": 61,
+      "type": "API_KEY",
+      "gold": "AKIASGJMBH6T1MZ9404U",
+      "predicted_nearby": [],
+      "text": "Help me debug. User Beth Perez (garciarhonda@example.com) in Calgary reports the API at 46.88.232.72 rejects key AKIASGJMBH6T1MZ9404U."
+    },
+    {
+      "id": 43,
+      "type": "API_KEY",
+      "gold": "ghp_8qyPn6THCkqkLC4lRXUG9W7PyCZ8pNLJHMrJ",
+      "predicted_nearby": [],
+      "text": "Here is my config:\nHOST=45.187.25.120\nADMIN=whitney88@example.com\nTOKEN=ghp_8qyPn6THCkqkLC4lRXUG9W7PyCZ8pNLJHMrJ\nCan you clean it up?"
+    },
+    {
+      "id": 81,
+      "type": "API_KEY",
+      "gold": "AKIAS55RF9N23ZD7CZKC",
+      "predicted_nearby": [],
+      "text": "Help me debug. User Ryan Moore (rebecca78@example.net) in Tokyo reports the API at 108.77.238.163 rejects key AKIAS55RF9N23ZD7CZKC."
+    },
+    {
+      "id": 94,
+      "type": "API_KEY",
+      "gold": "ghp_ycRT1N02Oicqlp867M3mc5b2ulsG7DsL3Dl8",
+      "predicted_nearby": [],
+      "text": "Fix this script:\nimport requests\nr = requests.get('http://17.88.106.67/api', headers={'Authorization': 'ghp_ycRT1N02Oicqlp867M3mc5b2ulsG7DsL3Dl8'})\nprint(r.json())"
+    },
+    {
+      "id": 57,
+      "type": "API_KEY",
+      "gold": "AKIAPBXM2QUE2NDHYWSB",
+      "predicted_nearby": [],
+      "text": "Help me debug. User Ronald Kelly (valdezrachel@example.com) in Waterloo reports the API at 23.147.88.151 rejects key AKIAPBXM2QUE2NDHYWSB."
+    },
+    {
+      "id": 64,
+      "type": "API_KEY",
+      "gold": "ghp_IipwouitZ5I5pnQdqpelhUhHapK3YeRjE5RC",
+      "predicted_nearby": [],
+      "text": "Fix this script:\nimport requests\nr = requests.get('http://79.45.11.181/api', headers={'Authorization': 'ghp_IipwouitZ5I5pnQdqpelhUhHapK3YeRjE5RC'})\nprint(r.json())"
+    },
+    {
+      "id": 70,
+      "type": "API_KEY",
+      "gold": "sk-Pj3rpfddM1ys9F9wWM8YEQs5SaoJAtQv",
+      "predicted_nearby": [],
+      "text": "Help me debug. User Monica Harris (hibarra@example.org) in Tokyo reports the API at 99.184.219.94 rejects key sk-Pj3rpfddM1ys9F9wWM8YEQs5SaoJAtQv."
+    },
+    {
+      "id": 83,
+      "type": "API_KEY",
+      "gold": "ghp_qmrSCdBBje8vAdUhSPbJgn2yn10791KWLc7u",
+      "predicted_nearby": [],
+      "text": "Why does my server at 192.146.2.117 refuse connections? I set the key to ghp_qmrSCdBBje8vAdUhSPbJgn2yn10791KWLc7u in .env"
+    },
+    {
+      "id": 22,
+      "type": "API_KEY",
+      "gold": "AKIANMMFSKYW39ZSTW6D",
+      "predicted_nearby": [],
+      "text": "Help me debug. User John Hendrix (kristinaking@example.net) in Sao Paulo reports the API at 46.90.221.21 rejects key AKIANMMFSKYW39ZSTW6D."
+    },
+    {
+      "id": 95,
+      "type": "API_KEY",
+      "gold": "ghp_6pogn2PI8kYUQOkqBbBeAWjaCK3PLIoHCS0C",
+      "predicted_nearby": [],
+      "text": "Help me debug. User Sandra Johnson (allisonrachel@example.com) in Berlin reports the API at 139.0.58.182 rejects key ghp_6pogn2PI8kYUQOkqBbBeAWjaCK3PLIoHCS0C."
+    },
+    {
+      "id": 23,
+      "type": "API_KEY",
+      "gold": "sk-zs6Db1h5i1nS1uWTRIlALOhmsCfXjUvW",
+      "predicted_nearby": [
+        [
+          "sk-zs6Db1h5i1nS1uWTRIlALOhmsCfXjUvW",
+          "NAME"
+        ]
+      ],
+      "text": "Here is my config:\nHOST=165.14.58.57\nADMIN=bensonbrett@example.net\nTOKEN=sk-zs6Db1h5i1nS1uWTRIlALOhmsCfXjUvW\nCan you clean it up?"
+    },
+    {
+      "id": 90,
+      "type": "API_KEY",
+      "gold": "sk-CBx7uAl4tnGhzRYXaM759WSvBMB5KSvf",
+      "predicted_nearby": [],
+      "text": "Fix this script:\nimport requests\nr = requests.get('http://39.39.199.249/api', headers={'Authorization': 'sk-CBx7uAl4tnGhzRYXaM759WSvBMB5KSvf'})\nprint(r.json())"
+    },
+    {
+      "id": 78,
+      "type": "API_KEY",
+      "gold": "ghp_7R6LCFnV3HJ61fXM9NXQS3tOOkBJLfBxOFHY",
+      "predicted_nearby": [],
+      "text": "Help me debug. User Matthew Randolph (williamsthomas@example.org) in Berlin reports the API at 131.123.190.193 rejects key ghp_7R6LCFnV3HJ61fXM9NXQS3tOOkBJLfBxOFHY."
+    },
+    {
+      "id": 63,
+      "type": "API_KEY",
+      "gold": "ghp_OEtEeasxOaTgZo86EZ4E8kPKXUS6vB8fEym8",
+      "predicted_nearby": [],
+      "text": "Why does my server at 197.163.69.124 refuse connections? I set the key to ghp_OEtEeasxOaTgZo86EZ4E8kPKXUS6vB8fEym8 in .env"
+    },
+    {
+      "id": 27,
+      "type": "API_KEY",
+      "gold": "AKIANAUP42F17CMG7XWZ",
+      "predicted_nearby": [],
+      "text": "Help me debug. User Michael Schneider (allison27@example.com) in Seattle reports the API at 136.152.77.10 rejects key AKIANAUP42F17CMG7XWZ."
+    },
+    {
+      "id": 33,
+      "type": "API_KEY",
+      "gold": "AKIAJ9O199A2HBNUG76V",
+      "predicted_nearby": [],
+      "text": "Why does my server at 159.22.159.66 refuse connections? I set the key to AKIAJ9O199A2HBNUG76V in .env"
+    },
+    {
+      "id": 91,
+      "type": "API_KEY",
+      "gold": "sk-ZKKKEUxI1gvwPqPLeFU1mrR6IF7xEB6k",
+      "predicted_nearby": [],
+      "text": "Here is my config:\nHOST=6.162.39.117\nADMIN=tromero@example.net\nTOKEN=sk-ZKKKEUxI1gvwPqPLeFU1mrR6IF7xEB6k\nCan you clean it up?"
+    },
+    {
+      "id": 97,
+      "type": "API_KEY",
+      "gold": "sk-On96KDXM61oqEEWJ5zIdSSc6wIryGIbT",
+      "predicted_nearby": [],
+      "text": "Why does my server at 164.43.109.120 refuse connections? I set the key to sk-On96KDXM61oqEEWJ5zIdSSc6wIryGIbT in .env"
+    },
+    {
+      "id": 41,
+      "type": "API_KEY",
+      "gold": "sk-CWhMdWLQPuyxXFcC36FxNgBGAIJvKaOq",
+      "predicted_nearby": [],
+      "text": "Fix this script:\nimport requests\nr = requests.get('http://42.43.183.93/api', headers={'Authorization': 'sk-CWhMdWLQPuyxXFcC36FxNgBGAIJvKaOq'})\nprint(r.json())"
+    },
+    {
+      "id": 51,
+      "type": "API_KEY",
+      "gold": "sk-LykXNm4aPtYjeqRWA33XDxVzL2FcwQ88",
+      "predicted_nearby": [],
+      "text": "Here is my config:\nHOST=171.63.40.221\nADMIN=victoriabeltran@example.org\nTOKEN=sk-LykXNm4aPtYjeqRWA33XDxVzL2FcwQ88\nCan you clean it up?"
+    },
+    {
+      "id": 88,
+      "type": "LOCATION",
+      "gold": "Hamilton",
+      "predicted_nearby": [
+        [
+          "Hamilton",
+          "NAME"
+        ]
+      ],
+      "text": "Draft an email to Sarah Williams (nguyenrichard@example.com) about moving our meeting from Hamilton to online."
+    },
+    {
+      "id": 31,
+      "type": "LOCATION",
+      "gold": "Hamilton",
+      "predicted_nearby": [
+        [
+          "Hamilton",
+          "NAME"
+        ]
+      ],
+      "text": "Write a cover letter for Christine Anderson, who is applying in Hamilton. Contact: katieshaw@example.org."
+    },
+    {
+      "id": 38,
+      "type": "API_KEY",
+      "gold": "ghp_2PUDB6MI4dDkRg0mH7PiTAjR4CHJIPegM9jN",
+      "predicted_nearby": [],
+      "text": "Here is my config:\nHOST=125.119.93.111\nADMIN=dfoster@example.org\nTOKEN=ghp_2PUDB6MI4dDkRg0mH7PiTAjR4CHJIPegM9jN\nCan you clean it up?"
+    },
+    {
+      "id": 42,
+      "type": "API_KEY",
+      "gold": "ghp_CEMcnf034vtkpKqHdcWqH2h9txVchduOn5Rw",
+      "predicted_nearby": [],
+      "text": "Why does my server at 48.105.11.145 refuse connections? I set the key to ghp_CEMcnf034vtkpKqHdcWqH2h9txVchduOn5Rw in .env"
+    },
+    {
+      "id": 28,
+      "type": "API_KEY",
+      "gold": "ghp_9j2EtwqGgJXxE6EPlzDR807SAwTgf0BoMuOB",
+      "predicted_nearby": [],
+      "text": "Here is my config:\nHOST=12.215.163.172\nADMIN=cookwilliam@example.net\nTOKEN=ghp_9j2EtwqGgJXxE6EPlzDR807SAwTgf0BoMuOB\nCan you clean it up?"
+    },
+    {
+      "id": 29,
+      "type": "API_KEY",
+      "gold": "AKIAOKI1PX3A1Q1D67M3",
+      "predicted_nearby": [],
+      "text": "Here is my config:\nHOST=209.11.209.45\nADMIN=ayoung@example.net\nTOKEN=AKIAOKI1PX3A1Q1D67M3\nCan you clean it up?"
+    },
+    {
+      "id": 17,
+      "type": "API_KEY",
+      "gold": "ghp_GgymRG3swK6misT6yPQm3kB7dG1TCJMF02cm",
+      "predicted_nearby": [],
+      "text": "Why does my server at 188.182.38.102 refuse connections? I set the key to ghp_GgymRG3swK6misT6yPQm3kB7dG1TCJMF02cm in .env"
+    },
+    {
+      "id": 73,
+      "type": "API_KEY",
+      "gold": "sk-d8RHK7qlcVd4nBfgHBFxBQNQ9uAgVuIe",
+      "predicted_nearby": [],
+      "text": "Why does my server at 1.42.150.45 refuse connections? I set the key to sk-d8RHK7qlcVd4nBfgHBFxBQNQ9uAgVuIe in .env"
+    },
+    {
+      "id": 16,
+      "type": "API_KEY",
+      "gold": "AKIAHXJYROIWJ9S2JX13",
+      "predicted_nearby": [],
+      "text": "Fix this script:\nimport requests\nr = requests.get('http://114.251.220.240/api', headers={'Authorization': 'AKIAHXJYROIWJ9S2JX13'})\nprint(r.json())"
+    },
+    {
+      "id": 65,
+      "type": "API_KEY",
+      "gold": "AKIADRECYE3FWCPDXYDH",
+      "predicted_nearby": [],
+      "text": "Fix this script:\nimport requests\nr = requests.get('http://193.212.75.78/api', headers={'Authorization': 'AKIADRECYE3FWCPDXYDH'})\nprint(r.json())"
+    },
+    {
+      "id": 35,
+      "type": "API_KEY",
+      "gold": "sk-IB2ECmJPznpOCQ9uc4YsY2aQ3IfctyZR",
+      "predicted_nearby": [],
+      "text": "Why does my server at 111.36.163.240 refuse connections? I set the key to sk-IB2ECmJPznpOCQ9uc4YsY2aQ3IfctyZR in .env"
+    },
+    {
+      "id": 76,
+      "type": "API_KEY",
+      "gold": "sk-qL50eGnyHXFd663g12wcwH0oXX7f1uPA",
+      "predicted_nearby": [],
+      "text": "Fix this script:\nimport requests\nr = requests.get('http://220.91.151.137/api', headers={'Authorization': 'sk-qL50eGnyHXFd663g12wcwH0oXX7f1uPA'})\nprint(r.json())"
+    }
+  ],
+  "false_positives": [
+    {
+      "id": 10,
+      "type": "IP",
+      "span": "1.2.3.4",
+      "overlaps_gold_of_type": [],
+      "text": "Set the firmware to version 1.2.3.4 and then reboot the board."
+    },
+    {
+      "id": 0,
+      "type": "IP",
+      "span": "1.2.3.4",
+      "overlaps_gold_of_type": [],
+      "text": "Set the firmware to version 1.2.3.4 and then reboot the board."
+    },
+    {
+      "id": 23,
+      "type": "NAME",
+      "span": "sk-zs6Db1h5i1nS1uWTRIlALOhmsCfXjUvW",
+      "overlaps_gold_of_type": [
+        "API_KEY"
+      ],
+      "text": "Here is my config:\nHOST=165.14.58.57\nADMIN=bensonbrett@example.net\nTOKEN=sk-zs6Db1h5i1nS1uWTRIlALOhmsCfXjUvW\nCan you clean it up?"
+    },
+    {
+      "id": 88,
+      "type": "NAME",
+      "span": "Hamilton",
+      "overlaps_gold_of_type": [
+        "LOCATION"
+      ],
+      "text": "Draft an email to Sarah Williams (nguyenrichard@example.com) about moving our meeting from Hamilton to online."
+    },
+    {
+      "id": 31,
+      "type": "NAME",
+      "span": "Hamilton",
+      "overlaps_gold_of_type": [
+        "LOCATION"
+      ],
+      "text": "Write a cover letter for Christine Anderson, who is applying in Hamilton. Contact: katieshaw@example.org."
+    },
+    {
+      "id": 6,
+      "type": "IP",
+      "span": "1.2.3.4",
+      "overlaps_gold_of_type": [],
+      "text": "Set the firmware to version 1.2.3.4 and then reboot the board."
+    }
+  ]
+}

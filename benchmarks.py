@@ -1,5 +1,5 @@
 """
-generate_benchmark.py - builds benchmark.jsonl: 100 synthetic prompts with
+benchmark.py - builds benchmark.jsonl: 100 synthetic prompts with
 gold annotations. All data is fake (Faker + random), so no real PII is used.
 
 Each line: {"id", "density", "text", "entities": [{"start","end","type","text"}]}
