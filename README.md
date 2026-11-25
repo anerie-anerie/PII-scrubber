@@ -124,6 +124,5 @@ Presidio has no default API-key recognizer and found none; the scrubber found 88
 ## Repository contents
 
 - `scrubber.py`: the final version of the scrubber.
-- First version of the scrubber: **[filename]**
-- Benchmark generators (Faker): **[filename(s)]**
-- Evaluation script: **[filename]**
+- Benchmark generators (Faker): benchmarks.py
+- Evaluation script: evaluate.py
